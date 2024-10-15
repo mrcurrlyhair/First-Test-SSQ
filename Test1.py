@@ -1,7 +1,7 @@
 print('hello world')
 x = 2 
 y = 4
-print(x * y)
+print(x * y) ## personal test ##
 
 
 
@@ -13,3 +13,16 @@ if num > 0:
 temperature = 30
 if temperature >25: 
     print('its a hot day!')
+
+fruits = ['Apple', 'Bannana', 'Cherry'] 
+for fruit in fruits:
+    print(fruit)
+
+
+for i in range(5):
+     print(i)
+
+count = 0 
+while count < 5:  ## while loop stops counting after 5, stops at it would just continue on for infinity ##
+    print(count)
+    count += 1
